@@ -47,7 +47,7 @@ var textoHover4 = document.querySelector("body > nav.laynav.desktop-nav.show-sub
         ocultarImagen(textoHover2);
     });
 
-<script>
+
  textoHover3.addEventListener("mouseover", function() {
         if (window.location.pathname !== "/home/") {
             return;
@@ -56,7 +56,7 @@ var textoHover4 = document.querySelector("body > nav.laynav.desktop-nav.show-sub
     });
 
     // Evento para ocultar la imagen cuando el mouse sale del segundo elemento
-    textoHover2.addEventListener("mouseout", function() {
+    textoHover3.addEventListener("mouseout", function() {
         ocultarImagen(textoHover3);
     });
 
@@ -69,10 +69,9 @@ var textoHover4 = document.querySelector("body > nav.laynav.desktop-nav.show-sub
     });
 
     // Evento para ocultar la imagen cuando el mouse sale del segundo elemento
-    textoHover2.addEventListener("mouseout", function() {
+    textoHover4.addEventListener("mouseout", function() {
         ocultarImagen(textoHover4);
     });
 
     // Agrega más eventos para cada selector adicional que desees
 });
-    </script>
