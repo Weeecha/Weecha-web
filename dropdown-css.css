@@ -1,0 +1,11 @@
+.dropdown-content, .dropdown-content2, .dropdown-content3, .dropdown-content4, .dropdown-content5, .dropdown-content6, .dropdown-content7, .dropdown-content8, .dropdown-content9{
+  display: none;
+  padding: 0px;
+  border: none;
+  margin-bottom: 0;
+  transition: display 1s ease; /* Change the transition speed here */
+}
+/* Esto es para el texto que hace el dropdown al clickar
+<p id="vermas1" class="_Base" style="text-align: right;" onclick="toggleDropdown()"><span>+</span></p>
+
+Luego el id de los elementos que hacen el dropdown tiene que ser class="dropdown-content" id="itemX"*/
